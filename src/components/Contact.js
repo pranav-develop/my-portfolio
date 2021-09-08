@@ -20,7 +20,7 @@ function Contact() {
     // backgroundImage: `url(${backgroundImg3})`
     // #e8e8e8
     return (
-        <div style={{backgroundImage: `url(${backgroundImg3})`}} className={"contact vh-100"}>
+        <div style={{backgroundImage: `url(${backgroundImg3})`}} className={"contact vh-100 position-relative overflow-hidden"}>
             {BackgroundBlob({
                 style: {
                     top: "-55%",

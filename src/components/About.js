@@ -1,9 +1,10 @@
 import React from "react";
 import myImg from "./../assets/img/myImg.jpg";
+import aboutBackground from "./../assets/img/about-back.svg";
 
 function About() {
     return (
-        <div className={"about"} style={{height: window.innerHeight}}>
+        <div className={"about"} style={{height: window.innerHeight, backgroundImage: `url(${aboutBackground})`}} >
             <div className={"container h-100"}>
                 <div className={"d-flex justify-content-center align-items-center px-5 h-100"}>
                     <div style={{height: window.innerHeight/1.5}} className={"row overflow-hidden"}>
@@ -20,14 +21,16 @@ function About() {
                                     <div className={"fs-1 fw-900"}>
                                         ABOUT ME
                                     </div>
-                                    <div className={" pt-4"}>
+                                    <div className={"fs-6 pt-4"}>
                                         <div className={""}>
                                             I am currently Pursuing my Bachelor's Degree in Computer Science and Information Technology from KIET Group of Institutions.
-                                            I am currently in my 3rd year. <br/>
-                                            I am also a Full Stack Web-Developer.
+                                            I am in 3rd year. <br/>
+                                        </div>
+                                        <div className={"pt-2"}>
+                                            I am also a <span className={"fw-bold"}>Full Stack Web-Developer</span>, <span className={"fw-bold"}>Competitive Coder</span>, <span className={"fw-bold"}>Game Dev Enthusiast</span>.
                                         </div>
                                         <div className={"pt-3"}>
-
+                                            <span className={"fw-bold"}>Languages & Frameworks:</span> C++, HTML5, CSS3, JavaScript, Java, React, Redux, Express, NodeJs, Spring-Boot
                                         </div>
                                     </div>
                                 </div>
