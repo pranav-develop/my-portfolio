@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    z-index: 100;
 }
 html,
 body{
@@ -45,6 +46,22 @@ body{
     padding: 1rem;
     background: #000;
 }
+.color-black{
+    color: #000000;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+/*----------hidescrollbar-------------*/
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 /*----------hidescrollbar-------------*/
 .project-img-container::-webkit-scrollbar {
     display: none;
@@ -66,4 +83,10 @@ body{
 .contact-form .form{
     border: 1px solid #b5b5b5;
     border-radius: 10px;
+}
+.nav-bar{
+    background: #ffffff;
+    border: 1px solid #b5b5b5;
+    z-index: 1000;
+    box-shadow: 0 2px 5px #00000030;
 }
