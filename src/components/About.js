@@ -4,7 +4,7 @@ import aboutBackground from "./../assets/img/about-back.svg";
 
 function About() {
     return (
-        <div className={"about"} style={{height: window.innerHeight, backgroundImage: `url(${aboutBackground})`}} >
+        <div id={"about"} className={"about"} style={{height: window.innerHeight, backgroundImage: `url(${aboutBackground})`}} >
             <div className={"container h-100"}>
                 <div className={"d-flex justify-content-center align-items-center px-5 h-100"}>
                     <div style={{height: window.innerHeight/1.5}} className={"row overflow-hidden"}>

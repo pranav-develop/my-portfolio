@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./../assets/img/pranav.png";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
     return (
@@ -10,16 +11,16 @@ function Navbar() {
                         <img src={logo} height={"60px"} alt="logo"/>
                     </div>
                     <div className={"nav-links d-flex justify-content-end ms-auto w-75 px-5"}>
-                        <a className={"text-decoration-none mx-4 px-2"} href="google.com">
+                        <a className={"text-decoration-none mx-4 px-2"} href="#top">
                             <span className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>Home</span>
                         </a>
-                        <a className={"text-decoration-none mx-4 px-2"} href="google.com">
+                        <a className={"text-decoration-none mx-4 px-2"} href="#about">
                             <span className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>About</span>
                         </a>
-                        <a className={"text-decoration-none mx-4 px-2"} href="google.com">
+                        <a className={"text-decoration-none mx-4 px-2"} href="#projects">
                             <span className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>Projects</span>
                         </a>
-                        <a className={"text-decoration-none mx-4 px-2"} href="google.com">
+                        <a className={"text-decoration-none mx-4 px-2"} href="#contact">
                             <span className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>Contact</span>
                         </a>
                     </div>

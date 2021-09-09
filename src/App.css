@@ -46,6 +46,11 @@ body{
     padding: 1rem;
     background: #000;
 }
+.about .my-image > img{
+    filter: grayscale(1);
+    border: 1px solid #b5b5b5;
+    box-shadow: 0 2px 5px #00000090;
+}
 .color-black{
     color: #000000;
 }
@@ -89,4 +94,29 @@ body {
     border: 1px solid #b5b5b5;
     z-index: 1000;
     box-shadow: 0 2px 5px #00000030;
+}
+.waving-hand-emoji{
+    filter: grayscale(1);
+    font-size: 3rem;
+    animation: __wave-hand 3s ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes __wave-hand {
+    0%{
+        transform: rotateY(-5deg);
+    }
+    25%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(5deg);
+    }
+    75%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(5deg);
+    }
 }

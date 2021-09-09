@@ -7,7 +7,7 @@ import backgroundImg3 from "./../assets/img/circle-scatter-haikei.svg";
 
 function Projects() {
     return (
-        <div style={{backgroundImage: `url(${backgroundImg3})`}} className={"projects vh-100"}>
+        <div id={"projects"} style={{backgroundImage: `url(${backgroundImg3})`}} className={"projects vh-100"}>
             <div className={"container h-100"}>
                 <div className={"d-flex justify-content-center h-100 align-items-center"}>
                     <div style={{height: window.innerHeight/1.5}} className={"w-100 px-5"}>
