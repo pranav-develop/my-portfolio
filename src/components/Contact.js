@@ -47,7 +47,7 @@ function Contact() {
                                 </div>
                             </div>
                             <div className={"contact-form col-6 ms-auto px-5 pt-2"}>
-                                <div className={"form p-5"}>
+                                <div className={"form rounded-3 p-5"}>
                                     <div className={"py-4"}>
                                         <input className={"form-control py-3 px-3"} type="text" placeholder={"Your name"} required />
                                     </div>
