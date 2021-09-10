@@ -5,6 +5,7 @@ import {motion} from "framer-motion";
 import {helloAnimation} from "./animations/Animations";
 
 function Main(){
+
     return (
         <div id={"top"} className={"main vh-100"}>
             <div className={"container h-100"}>
@@ -20,11 +21,11 @@ function Main(){
                                 <div className={"waving-hand-emoji fw-900"}>👋</div>
                                 <motion.div variants={helloAnimation} initial={"initial"} animate={"final"} className={"fs-1 fw-900"}>Hi There...</motion.div>
                                 <motion.div variants={helloAnimation} initial={"initial"} animate={"final"} className={"fs-3 fw-bolder pt-3"}>I'm Pranav Shukla</motion.div>
-                                <div className={"pt-3"}>Student & Full Stack Web developer</div>
+                                <div className={"pt-3 fs-5"}>Student & Full Stack Web developer</div>
                                 <div className={"call-to-action pt-4"}>
                                     <div className={"d-flex"}>
-                                        <button className={"btn btn-outline-secondary py-2 px-4 me-2"}>Contact Me</button>
-                                        <button className={"btn btn-outline-secondary py-2 px-4 fw-bolder ms-2"}>Download CV</button>
+                                        <button className={"btn btn-outline-secondary py-2 color-black px-4 me-2"}>Contact Me</button>
+                                        <button className={"btn btn-outline-secondary py-2 color-black px-4 fw-bolder ms-2"}>Download CV</button>
                                     </div>
                                 </div>
                             </motion.div>

@@ -33,9 +33,9 @@ function Contact() {
             <div className={"container h-100"}>
                 <div className={"d-flex justify-content-center h-100 align-items-center"}>
                     <div style={{height: window.innerHeight/1.5}} className={"w-100 px-5"}>
-                        <div className={"fs-1 fw-900"}>Get in Touch</div>
+                        <div data-aos={"fade-down"} className={"fs-1 fw-900"}>Get in Touch</div>
                         <div className={"contact-container pt-5 row"}>
-                            <div className={"col-6"}>
+                            <div data-aos={"fade-left"} className={"col-6"}>
                                 <div className={""}>
                                     <div className={"px-5"}>
                                         <ContactIcon />
@@ -46,7 +46,7 @@ function Contact() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={"contact-form col-6 ms-auto px-5 pt-2"}>
+                            <div data-aos={"fade-right"} className={"contact-form col-6 ms-auto px-5 pt-2"}>
                                 <div className={"form rounded-3 p-5"}>
                                     <div className={"py-4"}>
                                         <input className={"form-control py-3 px-3"} type="text" placeholder={"Your name"} required />

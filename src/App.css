@@ -3,12 +3,14 @@
     padding: 0;
     z-index: 100;
 }
+html{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
 html,
 body{
     font-size: 15px;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background: #fff;
 }
@@ -23,7 +25,10 @@ body{
     height: 100vh !important;
 }
 .right-0{
-    right: 0;
+    right: 0 !important;
+}
+.bottom-0{
+    bottom: 0 !important;
 }
 .top-100{
     top: 100%;
@@ -36,7 +41,7 @@ body{
 .projects .project-img-container{
     overflow-x: hidden;
 }
-.project-desc .scroll-indication{
+.projects .scroll-indication{
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
@@ -105,12 +110,12 @@ body {
     z-index: 1000;
     box-shadow: 0 2px 5px #00000030;
 }
-.nav-bar .nav-links > a span{
-    transition: all 0.5s;
+.nav-bar .nav-links > a div{
+    transition: letter-spacing 0.5s;
 }
 .nav-bar .nav-links > a:hover div{
     letter-spacing: 5px;
-    transition: all 0.5s;
+    transition: letter-spacing 0.5s;
 }
 .waving-hand-emoji{
     filter: grayscale(1);

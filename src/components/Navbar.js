@@ -27,19 +27,19 @@ function Navbar() {
                         <a className={"text-decoration-none mx-4 px-2"} href="#about">
                             <motion.div variants={navLinkAnimation1}
                                         initial={"initial"} animate={"final"}
-                                        className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>About
+                                        className={"text-decoration-none text-uppercase fw-bold fs-6 ls-2 color-black"}>About
                             </motion.div>
                         </a>
                         <a className={"text-decoration-none mx-4 px-2"} href="#projects">
                             <motion.div variants={navLinkAnimation2}
                                          initial={"initial"} animate={"final"}
-                                         className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>Projects
+                                         className={"text-decoration-none text-uppercase fw-bold fs-6 ls-2 color-black"}>Projects
                             </motion.div>
                         </a>
                         <a className={"text-decoration-none mx-4 px-2"} href="#contact">
                             <motion.div variants={navLinkAnimation3}
                                          initial={"initial"} animate={"final"}
-                                         className={"text-decoration-none text-uppercase fs-6 ls-2 color-black"}>Contact
+                                         className={"text-decoration-none text-uppercase fw-bold fs-6 ls-2 color-black"}>Contact
                             </motion.div>
                         </a>
                     </div>
