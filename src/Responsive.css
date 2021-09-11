@@ -1,0 +1,26 @@
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 768px) {
+    .each-project-head span{
+        font-size: 3rem !important;
+    }
+}
+@media (max-width: 575px) {
+    body{
+        font-size: 13px !important;
+    }
+    .each-project-head span{
+        font-size: 2rem !important;
+        padding: 10px 0 !important;
+    }
+    .project-desc{
+        font-size: 1rem !important;
+    }
+}

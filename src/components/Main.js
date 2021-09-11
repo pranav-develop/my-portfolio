@@ -24,7 +24,7 @@ function Main(){
                                 <div className={"pt-3 fs-5"}>Student & Full Stack Web developer</div>
                                 <div className={"call-to-action pt-4"}>
                                     <div className={"d-flex"}>
-                                        <button className={"btn btn-outline-secondary py-2 color-black px-4 me-2"}>Contact Me</button>
+                                        <a href={"#contact"} className={"btn btn-outline-secondary py-2 color-black px-4 me-2"}>Contact Me</a>
                                         <button className={"btn btn-outline-secondary py-2 color-black px-4 fw-bolder ms-2"}>Download CV</button>
                                     </div>
                                 </div>

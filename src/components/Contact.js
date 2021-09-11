@@ -20,7 +20,7 @@ function Contact() {
     // backgroundImage: `url(${backgroundImg3})`
     // #e8e8e8
     return (
-        <div id={"contact"} style={{backgroundImage: `url(${backgroundImg3})`}} className={"contact vh-100 position-relative overflow-hidden"}>
+        <div id={"contact"} style={{backgroundImage: `url(${backgroundImg3})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}} className={"contact position-relative overflow-hidden"}>
             {BackgroundBlob({
                 style: {
                     top: "-55%",
@@ -28,16 +28,16 @@ function Contact() {
                     opacity: 0.8,
                     backgroundColor: "#e8e8e8",
                     fontSize: "50vh",
+                    display: window.innerWidth > 768 ? "block" : "none"
                 },
             })}
             <div className={"container h-100"}>
-                <div className={"d-flex justify-content-center h-100 align-items-center"}>
-                    <div style={{height: window.innerHeight/1.5}} className={"w-100 px-5"}>
+                <div className={"py-5 px-2 px-xl-5 mt-5"}>
                         <div data-aos={"fade-down"} className={"fs-1 fw-900"}>Get in Touch</div>
                         <div className={"contact-container pt-5 row"}>
-                            <div data-aos={"fade-left"} className={"col-6"}>
+                            <div data-aos={"fade-left"} className={"col-6 d-none d-md-block"}>
                                 <div className={""}>
-                                    <div className={"px-5"}>
+                                    <div className={"px-3 px-lg-5"}>
                                         <ContactIcon />
                                     </div>
                                     <div>
@@ -46,8 +46,8 @@ function Contact() {
                                     </div>
                                 </div>
                             </div>
-                            <div data-aos={"fade-right"} className={"contact-form col-6 ms-auto px-5 pt-2"}>
-                                <div className={"form rounded-3 p-5"}>
+                            <div className={"contact-form col-12 col-sm-10 col-md-6 m-auto px-3 px-lg-5 pt-2"}>
+                                <div className={"form rounded-3 p-4 p-lg-5"}>
                                     <div className={"py-4"}>
                                         <input className={"form-control py-3 px-3"} type="text" placeholder={"Your name"} required />
                                     </div>
@@ -63,7 +63,6 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

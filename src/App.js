@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import "./Responsive.css";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home";
 
